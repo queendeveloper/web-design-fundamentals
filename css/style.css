@@ -1,16 +1,38 @@
-header {
-
-	border-color: #000000
-}
-
-
-
-
-
-
 
 body {
+    background-image: url("../images/sfds.jpg");
+}
 
-	background-color: #ffffff;
+.container {
+    width: 800px;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+}
 
+/*for main nav*/
+li{ display: inline;
+  list-style-type: none;
+  padding-right: 50px
+
+
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.red-box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 10px;
+}
+
+.blue-box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px 0 0 0;
 }
